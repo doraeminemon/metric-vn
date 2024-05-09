@@ -11,8 +11,12 @@ function App() {
       <div className='relative w-full bg-white md:py-4'>
         <Header />
         <Breadcrumb />
-        <Gallery />
-        <SimpleSlider />
+        <div className='w-full flex flex-col items-center'>
+            <div className='flex flex-col'>
+              <Gallery />
+              <SimpleSlider />
+            </div>
+        </div>
         <div className='footer'>
         </div>
       </div>

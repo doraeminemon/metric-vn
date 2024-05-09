@@ -35,7 +35,8 @@ export default function SimpleSlider() {
     slidesToShow: 4,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
+    prevArrow: <SamplePrevArrow />,
+    style: { width: '100%', maxWidth: 600 }
   };
   const images = [
     './images/photo1.jpeg',
