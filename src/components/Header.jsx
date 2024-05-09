@@ -2,7 +2,7 @@ export function Header() {
   return (
     <div id="header" className='header flex items-center border-b border-b-gray-300 pb-4 px-4'>
       <div className='header bg-white py-3 px-4 flex flex-shrink-0 cursor-pointer'>
-        <a href="/" className='text-orange-600 font-bold hover:text-orange-600 text-xl'>Mua Thông Minh</a>
+        <a href="/" className='text-orange-600 font-bold hover:text-orange-600 text-xl'>MuTôMi</a>
       </div>
       <div className='flex-grow w-full relative'>
         <div className='relative'>
@@ -18,9 +18,9 @@ export function Header() {
         <svg width="18" height="13" viewBox="0 0 18 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className=""><rect data-v-4a0f219a="" width="18" height="1" transform="matrix(1 0 0 -1 0 1)" fill="black"></rect><rect data-v-4a0f219a="" width="18" height="1" transform="matrix(1 0 0 -1 0 7)" fill="black"></rect><rect data-v-4a0f219a="" width="18" height="1" transform="matrix(1 0 0 -1 0 13)" fill="black"></rect></svg>
         <span className='ml-2 font-semibold'>DANH MỤC</span>
       </div>
-      <div className='relative mx-4 font-semibold'>
+      <a className='relative mx-4 font-semibold' href="/blog">
         BLOG
-      </div>
+      </a>
     </div>
   )
 }
