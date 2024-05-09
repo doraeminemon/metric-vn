@@ -14,7 +14,7 @@ export default function ProductDescription() {
       </div>
       <div className="flex flex-row gap-4 align-start justify-between">
         <div className="flex flex-row items-baseline gap-2">
-          <span className="text-2xl  mb-2.5"> 526.890 ₫</span>
+          <span className="text-2xl mb-2.5"> 526.890 ₫</span>
           <div className="flex flex-row gap-2">
             <span className="text-green-700 flex flex-row text-xs bg-green-200 px-2 py-1 rounded-md items-center font-bold">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-3 w-4 app-sm:w-5 app-sm:h-5 mr-1">
@@ -38,10 +38,10 @@ export default function ProductDescription() {
         <p>- Do giới hạn của hệ điều hành, Windows hỗ trợ 3 màn hình riêng biệt, Mac không hỗ trợ 3 màn hình riêng biệt, chỉ hỗ trợ mirror mode và dual mode.</p>
       </div>
       <div id="buy-button" className="w-full flex flex-row mb-1 mt-10 gap-4">
-        <a href="shopee.vn" className="px-6 py-3 text-orange-500 outline outline-orange-500 flex flex-row gap-2 items-center hover:outline-2 transition-all font-bold">
+        <a href="shopee.vn" className="px-6 py-3 text-orange-500 outline outline-orange-500 flex flex-row gap-2 items-center hover:outline-2 transition-all duration-100 font-bold">
           Mua ngay
         </a>
-        <button className="flex-grow text-center bg-orange-500 hover:border-none hover:outline hover:outline-orange-500 text-white rounded-none">
+        <button className="flex-grow text-center bg-orange-500 hover:border-none hover:outline hover:outline-orange-500 text-white rounded-none  duration-100">
           Thêm vào giỏ
         </button>
       </div>
