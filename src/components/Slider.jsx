@@ -1,14 +1,16 @@
+/* eslint-disable react/prop-types */
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import './Slider.css'
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red" }}
+      style={{ ...style, display: "flex", background: "rgba(0, 0, 0, 0.24)", position: 'absolute', right: 0, height: 100 }}
       onClick={onClick}
     />
   );
@@ -19,7 +21,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      style={{ ...style, display: "flex", background: "rgba(0, 0, 0, 0.24)", position: 'absolute', zIndex: 20, left: 0, height: 100 }}
       onClick={onClick}
     />
   );
